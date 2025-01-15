@@ -8,9 +8,26 @@
         {% endblock %}
 
         {% block javascripts %}
+            {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
     </head>
     <body>
+    
+        <nav>
+            <ul>
+                <li>
+                    <a href="{{ path('app_main') }}">
+                        Accueil
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ path('app_main_contact') }}">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    
         {% block body %}{% endblock %}
     </body>
 </html>

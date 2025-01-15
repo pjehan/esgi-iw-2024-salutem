@@ -32,3 +32,13 @@ php bin/console make:controller MainController
 ```bash
 composer req twig
 ```
+
+### Installation de AssetMapper
+
+Il est possible pour cette étape d'utiliser
+AssetMapper (simple, mais limité) ou
+Webpack Encore (plus complexe, mais plus puissant).
+
+```bash
+composer req symfony/asset-mapper symfony/asset
+```
