@@ -14,8 +14,9 @@ Ou avec le CLI de Symfony
 symfony new salutem # ou symfony new salutem --webapp
 ```
 
-### Installation des outils de debug
+### Installation des outils de debug et de Maker
 
 ```bash
- composer req --dev debug
+composer req --dev debug
+composer req --dev maker
 ```
