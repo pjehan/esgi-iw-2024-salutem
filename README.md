@@ -42,3 +42,21 @@ Webpack Encore (plus complexe, mais plus puissant).
 ```bash
 composer req symfony/asset-mapper symfony/asset
 ```
+
+### Installation de Doctrine
+
+```bash
+composer req orm
+```
+
+Créer le fichier `.env.local` et y ajouter la configuration de la base de données.
+
+```bash
+DATABASE_URL="mysql://salutem:salutem@127.0.0.1:3306/salutem?serverVersion=5.7&charset=utf8mb4"
+```
+
+Créer la base de données (sauf si elle existe déjà).
+
+```bash
+php bin/console doctrine:database:create
+```
