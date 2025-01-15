@@ -13,3 +13,9 @@ Ou avec le CLI de Symfony
 ```bash
 symfony new salutem # ou symfony new salutem --webapp
 ```
+
+### Installation des outils de debug
+
+```bash
+ composer req --dev debug
+```
