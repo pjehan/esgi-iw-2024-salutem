@@ -1,6 +1,9 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello MainController!{% endblock %}
+{% block title %}
+    {{ parent() }}
+    - Accueil
+{% endblock %}
 
 {% block body %}
     <section class="home-top">
