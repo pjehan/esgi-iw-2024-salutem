@@ -26,3 +26,9 @@ composer req --dev maker
 ```bash
 php bin/console make:controller MainController
 ```
+
+### Installation du moteur de template Twig
+
+```bash
+composer req twig
+```
