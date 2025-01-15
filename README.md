@@ -60,3 +60,27 @@ Créer la base de données (sauf si elle existe déjà).
 ```bash
 php bin/console doctrine:database:create
 ```
+
+### Création des entités
+
+```bash
+php bin/console make:entity
+```
+
+Attention ! Pour les utilisateurs :
+
+```bash
+php bin/console make:user
+```
+
+Création des fichiers de migration.
+
+```bash
+php bin/console make:migration
+```
+
+Mise à jour de la base de données.
+
+```bash
+php bin/console doctrine:migrations:migrate
+```
