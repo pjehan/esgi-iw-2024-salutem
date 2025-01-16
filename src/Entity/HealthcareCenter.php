@@ -123,7 +123,7 @@ class HealthcareCenter
     }
 
     /**
-     * @return Collection<int, Doctor>
+     * @return Doctor[]
      */
     public function getDoctors(): Collection
     {

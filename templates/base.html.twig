@@ -14,7 +14,7 @@
     </head>
     <body>
 
-    {% include 'layout/_header.html.twig' %}
+    {% include 'layout/_header.html.twig' with {healthcare_center_name: block('healthcare_center_name')} %}
 
     {% include 'layout/_nav.html.twig' %}
 

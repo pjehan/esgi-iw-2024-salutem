@@ -46,6 +46,11 @@ class Doctor
         $this->appointments = new ArrayCollection();
     }
 
+    public function getFullName(): string
+    {
+        return $this->getFirstName() . ' ' . $this->getLastName();
+    }
+
     public function getId(): ?int
     {
         return $this->id;
@@ -65,7 +70,7 @@ class Doctor
 
     public function getLastName(): ?string
     {
-        return $this->lastName;
+        return strtoupper($this->lastName);
     }
 
     public function setLastName(string $lastName): static
@@ -88,7 +93,7 @@ class Doctor
     }
 
     /**
-     * @return Collection<int, Skill>
+     * @return Skill[]
      */
     public function getSkills(): Collection
     {
