@@ -84,3 +84,31 @@ Mise à jour de la base de données.
 ```bash
 php bin/console doctrine:migrations:migrate
 ```
+
+### Installation de Doctrine Extensions
+
+```bash
+composer req stof/doctrine-extensions-bundle
+```
+
+Puis activer les extensions dans le fichier `config/packages/stof_doctrine_extensions.yaml`.
+
+```yaml
+stof_doctrine_extensions:
+    default_locale: en_US
+    orm:
+        default:
+            sluggable: true
+```
+
+### Création des fixtures
+
+```bash
+composer req orm-fixtures
+```
+
+Création des fixtures.
+
+```bash
+php bin/console make:fixtures
+```
