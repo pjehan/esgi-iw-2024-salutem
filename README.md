@@ -112,3 +112,11 @@ Création des fixtures.
 ```bash
 php bin/console make:fixtures
 ```
+
+### Gestion des formulaires
+
+```bash
+composer req form
+```
+
+
