@@ -186,3 +186,11 @@ Créer le formulaire de connexion.
 php bin/console make:security:form-login
 ```
 
+Créer le formulaire d'inscription.
+
+```bash
+composer req symfonycasts/verify-email-bundle
+composer req mailer
+php bin/console make:registration-form
+```
+
