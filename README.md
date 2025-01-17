@@ -173,3 +173,16 @@ Créer un utilisateur.
 ```bash
 php bin/console make:user
 ```
+
+Créer les fixtures pour les utilisateurs.
+
+```bash
+php bin/console make:fixtures UserFixtures
+```
+
+Créer le formulaire de connexion.
+
+```bash
+php bin/console make:security:form-login
+```
+
