@@ -1,5 +1,24 @@
 # Salutem
 
+## TODO
+
+- [ ] Afficher sur la page d'un centre de santé si celui-ci est ouvert ou fermé.
+- [ ] Sur la page d'un centre de santé, afficher une photo par défaut (placeholder) si le docteur n'en a pas.
+___
+- [ ] Pouvoir gérer les utilisateurs lorsque l'on est connecté en tant qu'administrateur.
+___
+- [ ] Rattacher l'entité `User` à l'entité `HealthcareCenter` et gérer un nouveau rôle `ROLE_MANAGER` et leur permettre de se connecter à l'administration avec un accès restreint aux données des centres de santé qu'ils gèrent.
+- [ ] Pouvoir gérer les horaires d'ouverture d'un centre de santé lorsque l'on est connecté en tant que gérant.
+- [ ] Pouvoir gérer les rendez-vous d'un centre de santé lorsque l'on est connecté en tant que gérant.
+Pouvoir associer un rendez-vous à un docteur et modifier l'heure du rendez-vous. Attention à n'afficher
+que la liste des docteurs ayant la compétence demandée par le patient depuis le formulaire de prise de rendez-vous.
+- [ ] Pouvoir gérer les docteurs d'un centre de santé lorsque l'on est connecté en tant que gérant.
+- [ ] Pouvoir afficher les rendez-vous d'un docteur lorsque l'on est connecté en tant que gérant.
+- [ ] Améliorer l'administration des horaires d'ouverture en utilisant les [Collection de formulaire](https://symfony.com/doc/current/form/form_collections.html).
+___
+- [ ] Rattacher l'entité `User` à l'entité `Appointment` et afficher un formulaire simplifié pour la prise de rendez-vous lorsque l'utilisateur est connecté.
+- [ ] Pouvoir afficher les rendez-vous (passés et à venir) d'un utilisateur lorsque l'on est connecté en tant qu'utilisateur.
+
 ## Création du projet
 
 ### Installation de Symfony
