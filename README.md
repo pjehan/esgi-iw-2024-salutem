@@ -19,6 +19,10 @@ ___
 - [ ] Rattacher l'entité `User` à l'entité `Appointment` et afficher un formulaire simplifié pour la prise de rendez-vous lorsque l'utilisateur est connecté.
 - [ ] Pouvoir afficher les rendez-vous (passés et à venir) d'un utilisateur lorsque l'on est connecté en tant qu'utilisateur.
 
+## Diagramme de classes UML
+
+![Diagramme de classes UML](./salutem-uml.png)
+
 ## Création du projet
 
 ### Installation de Symfony
