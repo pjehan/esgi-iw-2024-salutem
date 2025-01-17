@@ -159,4 +159,17 @@ Créer un formulaire.
 php bin/console make:form
 ```
 
+### Gestion des utilisateurs
 
+Lien vers la documentation de la sécurité
+[ici](https://symfony.com/doc/current/security.html).
+
+```bash
+composer req security
+```
+
+Créer un utilisateur.
+
+```bash
+php bin/console make:user
+```
