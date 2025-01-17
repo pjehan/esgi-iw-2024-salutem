@@ -4,6 +4,9 @@
 
 ### Installation de Symfony
 
+Lien vers la documentation de l'installation de Symfony
+[ici](https://symfony.com/doc/current/setup.html).
+
 ```bash
 composer create-project symfony/skeleton salutem
 ```
@@ -16,6 +19,9 @@ symfony new salutem # ou symfony new salutem --webapp
 
 ### Installation des outils de debug et de Maker
 
+Lien vers la documentation de Debug
+[ici](https://symfony.com/doc/current/components/var_dumper.html).
+
 ```bash
 composer req --dev debug
 composer req --dev maker
@@ -23,17 +29,26 @@ composer req --dev maker
 
 ### Création du premier contrôleur
 
+Lien vers la documentation des contrôleurs
+[ici](https://symfony.com/doc/current/controller.html).
+
 ```bash
 php bin/console make:controller MainController
 ```
 
 ### Installation du moteur de template Twig
 
+Lien vers la documentation de Twig
+[ici](https://symfony.com/doc/current/templates.html).
+
 ```bash
 composer req twig
 ```
 
 ### Installation de AssetMapper
+
+Lien vers la documentation de AssetMapper
+[ici](https://symfony.com/doc/current/frontend/asset_mapper.html).
 
 Il est possible pour cette étape d'utiliser
 AssetMapper (simple, mais limité) ou
@@ -44,6 +59,9 @@ composer req symfony/asset-mapper symfony/asset
 ```
 
 ### Installation de Doctrine
+
+Lien vers la documentation des entités
+[ici](https://symfony.com/doc/current/doctrine.html).
 
 ```bash
 composer req orm
@@ -62,6 +80,9 @@ php bin/console doctrine:database:create
 ```
 
 ### Création des entités
+
+Lien vers la documentation des entités
+[ici](https://symfony.com/doc/current/doctrine.html).
 
 ```bash
 php bin/console make:entity
@@ -87,6 +108,9 @@ php bin/console doctrine:migrations:migrate
 
 ### Installation de Doctrine Extensions
 
+Lien vers la documentation de Doctrine Extensions
+[ici](https://symfony.com/bundles/StofDoctrineExtensionsBundle/current/index.html).
+
 ```bash
 composer req stof/doctrine-extensions-bundle
 ```
@@ -103,6 +127,9 @@ stof_doctrine_extensions:
 
 ### Création des fixtures
 
+Lien vers la documentation des fixtures
+[ici](https://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html).
+
 ```bash
 composer req orm-fixtures
 ```
@@ -115,8 +142,21 @@ php bin/console make:fixtures
 
 ### Gestion des formulaires
 
+Lien vers la documentation des formulaires
+[ici](https://symfony.com/doc/current/forms.html).
+
+Lien vers la documentation des validateurs
+[ici](https://symfony.com/doc/current/validation.html).
+
 ```bash
 composer req form
+composer req validator
+```
+
+Créer un formulaire.
+
+```bash
+php bin/console make:form
 ```
 
 
