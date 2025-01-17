@@ -368,6 +368,35 @@ footer.main-footer table.opening-hours tr td.hours {
     margin-bottom: 0;
 }
 
+.security {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.security .security-form-container {
+    min-width: min(80%, 400px);
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.security .security-form-container .btn {
+    color: black;
+}
+
+.security .security-form-container .form-check {
+    display: flex;
+}
+
+.security .security-form-container .form-check [type="checkbox"] {
+    width: auto;
+}
+
 @media only screen and (max-width: 991px) {
     .container {
         width: 100%;
