@@ -38,6 +38,7 @@ class AppointmentType extends AbstractType
                     'min' => (new \DateTime())->format('Y-m-d\TH:i'),
                 ],
             ])
+            ->add('message')
             ->add('skill', EntityType::class, [
                 'class' => Skill::class,
                 'query_builder' => function (EntityRepository $er) use ($healthcareCenter): QueryBuilder {
@@ -50,7 +51,6 @@ class AppointmentType extends AbstractType
                 'choice_label' => 'name',
                 'label' => 'Spécialité',
             ])
-            ->add('message')
         ;
     }
 
