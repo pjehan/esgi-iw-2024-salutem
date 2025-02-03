@@ -45,6 +45,8 @@ final class HealthcareCenterController extends AbstractController
             $entityManager->persist($appointment);
             $entityManager->flush();
 
+            $this->addFlash('success', 'Votre rendez-vous a bien été pris en compte.');
+
             return $this->redirectToRoute('app_healthcarecenter_show', ['slug' => $healthcareCenter->getSlug()]);
         }
 

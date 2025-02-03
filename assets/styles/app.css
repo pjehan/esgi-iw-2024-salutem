@@ -397,6 +397,21 @@ footer.main-footer table.opening-hours tr td.hours {
     width: auto;
 }
 
+.flashes {
+    padding: 1rem 0;
+}
+
+.flash {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.flash.flash-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
 @media only screen and (max-width: 991px) {
     .container {
         width: 100%;
