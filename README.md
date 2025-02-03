@@ -23,6 +23,16 @@ ___
 
 ![Diagramme de classes UML](./salutem-uml.png)
 
+## Démarrer le projet
+
+```
+composer install
+docker compose up
+symfony serve
+```
+
+[http://localhost:8000](http://localhost:8000)
+
 ## Création du projet
 
 ### Installation de Symfony
